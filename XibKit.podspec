@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version               = '2.0.0'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.summary               = 'Simple XibKit'
-  s.description           = 'The '
+  s.description           = 'This is the Xibkit, use it wisely'
   s.homepage              = 'https://github.com/Kreitech/XibKit'
-  s.authors               = {  }
+  s.authors               = {  'Yannick Loriot' => 'http://yannickloriot.com' }
   s.source                = { :git => 'https://github.com/Kreitech/XibKit.git',
                               :tag => s.version.to_s }
   s.requires_arc          = true
