@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/Kreitech/XibKit.git',
                               :tag => s.version.to_s }
   s.requires_arc          = true
-  s.source_files          = ['XibKit/*.{h,m}']
+  s.source_files          = ['Pod/Classes/*.{h,m}']
   s.framework             = 'AVFoundation'
   s.ios.deployment_target = '7.0'
 end
